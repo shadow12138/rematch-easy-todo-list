@@ -1,0 +1,19 @@
+.todo-cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    div {
+        background-color: white;
+        height: 6px;
+        border-bottom: 1px #f5f5f5 solid;
+    }
+
+    :first-child {
+        width: 99%;
+    }
+
+    :last-child {
+        width: 98%;
+    }
+}

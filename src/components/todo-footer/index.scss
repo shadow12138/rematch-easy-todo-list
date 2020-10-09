@@ -1,0 +1,24 @@
+.footer {
+    font-size: 10px;
+    color: #bfbfbf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+    p {
+        margin-top: 6px;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 400;
+        
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
